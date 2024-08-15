@@ -1,0 +1,9 @@
+[package]
+name = "static_file_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+httpcodec = "0.2.3"
+bytecodec = "0.4.15"
+wasmedge_wasi_socket = "0.5.4"
